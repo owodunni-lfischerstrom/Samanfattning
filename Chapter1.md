@@ -32,7 +32,7 @@
  
 The diciplines above cover most of AI and the test is still relevant 60 years later.
 
-*Universal Turing machine
+* Universal Turing machine
  * Hypotetical device capable of solving any effectively solvable algorithmic problem
  * Any problem any langauge any computer is also solvable by a Turing machine
  

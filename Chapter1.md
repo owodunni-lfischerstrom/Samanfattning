@@ -11,4 +11,6 @@
  |Thougt process|  Systems that think humanly | systems that think rationally  |
  |Behavior|  Systems that act humanly | systems that act rationally  |
 
- A rational agent is an agent that always does the right thing given what it knows and it's goals.
+ A rational agent is an agent that always does the right thing given what it knows and it goals.
+ 
+ ===

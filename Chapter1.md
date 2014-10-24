@@ -6,6 +6,9 @@
   * It's a new field.
   * There are four diffrent aproaches to AI
   
-|  Systems that think humanly | systems that think rationally  |
-|---|---|
-|  Systems that act humanly | systems that act rationally  |
+ || Human-centered | Rationality centered  |
+ |---|---|---|
+ |Thougt process|  Systems that think humanly | systems that think rationally  |
+ |Behavior|  Systems that act humanly | systems that act rationally  |
+
+ *

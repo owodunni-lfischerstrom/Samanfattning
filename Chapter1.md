@@ -16,7 +16,7 @@
 
 ## Turing
 
-*The turing test
+* The turing test
  * First mentioned in an article by Alan Turing in 1950
  * The goal of the test is to provide a satisfactory defenition of intelligence
  * A person C must decide which of player A and B is human and whom is a compluter.

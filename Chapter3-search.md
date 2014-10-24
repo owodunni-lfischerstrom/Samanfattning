@@ -19,7 +19,7 @@
 
 ===
 
-*Graph vs Tree search
+* Graph vs Tree search
  * Graph search keeps track of visited nodes ex - explored hash table
  * Tree search does not keep track and is suseptible for infinity loop
 
@@ -130,9 +130,9 @@ When A* expandes a node that means that the optimal path to that node from the r
 
 ===
  
- ### Inventing Admissible heuristics
+### Inventing Admissible heuristics
  
- * The cost of an optimal solution to a relaxed problem is in fact
+ * The cost of an optimal solution to relaxed problem is an admissible heuristic to original problem
 
 
 

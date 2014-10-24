@@ -19,3 +19,10 @@
   * Very complex symbol system AIs exist can simulate intelligence
   * Psychologi sugest that human problem solving uses symbol manipulation 
   
+* Heuristic search hypothesis
+ * A PSS exercises intelligence by search aka modifying symbol structures until goal structure is produced
+ * Initial symbol structure -> Heuristic search -> Goal symbol structure
+ 
+
+ 
+  

@@ -1,6 +1,9 @@
 #Chapter 3, search
 
-##Search
+##Uninformed Search
+
+* Diffrent types of Uninformed Search
+  * 
 
 
 

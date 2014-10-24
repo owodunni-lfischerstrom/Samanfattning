@@ -9,11 +9,15 @@
   * Ex - Formal logic, algebra, digital computer, chess, human thought, AI - agent
   * In humans symbols = thoughts, processes = thinking 
   * In agent symbols  = data, processes = programs
+  
+  ===
 
 * Designation - An expression designates an object if the system can alter or depend on the object
 * Interpretation - The system can interpretat an expression if the expression designates a process that the system can preform.
 * Necessary - Any system exhibiting intelligence will prove to be a PSS
 * Sufficient - any PSS of sufficient size can be made to exhibit general intelligence
+
+===
 
 * Evidence by Newell and Simon that "symbol manipulation" exits in humans and AI
   * Very complex symbol system AIs exist can simulate intelligence

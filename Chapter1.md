@@ -1,6 +1,6 @@
 # Chapter 1 Introduction
-======
 
+##AI
 * What is AI?
   * AI is an atempt to build intelligent agents/entities.
   * It's a new field.
@@ -14,3 +14,5 @@
  A rational agent is an agent that always does the right thing given what it knows and it goals.
  
  ===
+
+## Turing

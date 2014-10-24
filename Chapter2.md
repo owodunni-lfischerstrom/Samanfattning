@@ -22,3 +22,32 @@
 |Discrete|Continous||
 |Known|Unknown|Do we have to learn how the physics of the world|
 
+##Agent types
+
+* Simple reflex agent
+ * No memory
+ * Only reacts to changes of sensor data
+ * Given actions by given sensor data
+ 
+* Model based reflex agent
+ * Memory
+ * Can store knowledge of the woeld
+ * Reacts to knowledge and sensor reflexes
+ * No reasoning only hardcoded reflexes
+ 
+* Goal-based agent
+ * Memory
+ * Can anticipate outcome of actions
+ * Takes actions that are most likely to lead to goal (planing)
+ * Capable of reasoning and deduction
+
+* Utility-based agent
+ * Memory 
+ * Planing¨
+ * Reasoning and deduction
+ * Reasoning about several goals, trade offs, conflicting goals
+ 
+*Learning agent
+ * Can modify it's behavior 
+ * Exploration leads to adaptivity to new experiences
+

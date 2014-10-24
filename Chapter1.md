@@ -12,9 +12,6 @@
  |Behavior|  Systems that act humanly | systems that act rationally  |
  ||Cognetiv science|Engenireng|
  ||||
-
- A rational agent is an agent that always does the right thing given what it knows and it goals.
- 
  ===
 
 ## Turing

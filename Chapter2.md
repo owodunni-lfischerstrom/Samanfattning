@@ -11,6 +11,7 @@
   * Memory, percept sequence, what the agent has percived so far
 
 * Diffrent enviromental characteristics 
+
 |   |   |   |
 |---|---|---|
 |Fully observable|Partially observable|How much can the agents sensors percive|

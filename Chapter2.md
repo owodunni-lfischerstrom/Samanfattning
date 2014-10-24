@@ -47,7 +47,7 @@
  * Reasoning and deduction
  * Reasoning about several goals, trade offs, conflicting goals
  
-*Learning agent
+* Learning agent
  * Can modify it's behavior 
  * Exploration leads to adaptivity to new experiences
 

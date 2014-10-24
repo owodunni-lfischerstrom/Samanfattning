@@ -94,19 +94,45 @@ l = deepth limit
 ===
 
 ## Informed search
-f(n) 
+f(n) = function used by algorith to evaluate new nodes
 
 * Greedy best-first search
- * Evaluates new nodes with heuristic function f(n)=g(n)
+ * f(n)=g(n)
  * g(n) admissible heuristic to estimate distance to goal
  * Complete - yes in graph search in finite state space
  * Optimal - no
  
 * A*
- * f(n)
+ * f(n) = g(n) + h(n)
+ * g(n) admissible heuristic to estimate distance to goal
+ * h(n) cost from root to node
+ * Complete - yes se below
+ * Optimal yes se below
+ 
+### A* - proof of optimality
+
+* A* is optimal in tree-search if f(n) is admissible
+* A* is optimal in graph-search if h(n) is consistent
+ * h(n) being consistent means that the distance from root to leaf is always increasing with deepth.
+ * c(n,a,n') cost from n to n' while preforming action a
+
+Proof:
+g(n') = g(n)  + c(n,a,n')
+f(n') = g(n') + h(n') = g(n) + c(n,a,n') + h(n') >= g(n) + h(n) = f(n)
+
+The cost will always increase while we move deeper in a consistent search-tree.
+When A* expandes a node that means that the optimal path to that node from the root.
+
+* A* expandes all nodes with f(n) < goal cost
+* A* might then expand some node right on the "goal contour" where f(n) = goal cost
+* Completness requires finite amount of nodes with cost < goal cost
+* A* is optimally efficient
 
 ===
  
+ ### Inventing Admissible heuristics
+ 
+ * The cost of an optimal solution to a relaxed problem is in fact
 
 
 

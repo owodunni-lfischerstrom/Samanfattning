@@ -16,7 +16,7 @@
   * Representation is closer to the original problem 
   * Algorithms used are domain independent
 
-*How to solve
+* How to solve
   * Search - simply tries diffrent solutions and checks if they work
   * Inference - reasoning until solution is found
   * Constraint propogation (cp) - changes possible values in other variables 

@@ -36,10 +36,16 @@ word-list
   
 ===
 
-### Theorem proving, inference and proofs
+## Theorem proving, inference and proofs
 
 * Logical equivalence - two sentences are true in the same sets of models a<=>b
 * Validity - A sentence is valid if it's true in all models. a v !a
 * satisfiability - a sentence is satisfiable if it's true in some model
-* 
 
+## CNF 
+
+How to convert a sentence to CNF form
+
+1. eliminate a <=> b by replacing with (a=>b)^(b=>a)
+2. eliminate a=>b by replacing with !a v b
+3

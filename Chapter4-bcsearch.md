@@ -13,7 +13,8 @@ Global optimum = highest mountain in the world
 
 * Stochastic hill climbing 
   * Chooses a random move from neigbhouring upphill moves, probability can vary with steepness
-  
+  * Genetic algorithms are examples of stochastic hill-climbing   
+
 * Simulated annealing
   * Combination of hill climbing and random walk 
   * Randomnes decrease with time
@@ -22,10 +23,12 @@ Global optimum = highest mountain in the world
   * Searches several random possistions, chooses the best and starts again.
   *Stops when no better has been found for sertain amount of time.
   
-###Genetic algorithms
+===
 
-* Combines diffrent solutions inorder to "breed" a optimal solution
+* Genetic algorithms
+  * Combines diffrent solutions inorder to "breed" a optimal solution
   * Genetic mutations
   * Problem solution must be definable as a set witch can be mixed with other sets
   * Ex vector of numbers  that represent solutions to the problem
   
+

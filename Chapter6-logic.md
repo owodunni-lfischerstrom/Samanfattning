@@ -33,6 +33,7 @@ word-list
 * Syntax
   * Inference - & |-- RW
   * Entailment - & |= W
+  
 ===
 
 ### Theorem proving, inference and proofs

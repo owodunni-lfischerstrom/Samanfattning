@@ -41,7 +41,7 @@ Word-list:
 ===
 ## CSP - Backtracking
 
-Simple Backtracking search
+Simple Backtracking search:
   * Recursive deapth-first search to failure
     * When failing the variable causing it will return failure and new values will be tried
     * stupid but with inference can lead to intelligent backtracking
@@ -54,16 +54,16 @@ Intelligent backtracking - heuristic
 ===
 ## CSP - Inference
 
-Inference in CSP
+### Inference in CSP
 * construct constraint graph of problem
 * Enforce local consistency in each part of graph 
   * eliminates inconsistent values througout the graph
   * Larger local region -> higher inference cost
 
-Forward checking
+### Forward checking
 * Assign value to X -> make all nodes connected to X arc consistent -> choose new X repeat
 
-AC-3 algorithm for arc consistency
+### AC-3 algorithm for arc consistency
   * Makes the whole problem arc consistent or returns false
     * Returns false when a node had run out of possible variable values aka no possible solutions.
   * Systematicly works through all the arcs in a CSP

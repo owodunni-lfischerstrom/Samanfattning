@@ -35,18 +35,22 @@ Word-list:
     * Node - If any of the values that the node can have keeps it from being inconsistent. Unary constraints can be checked in this way. 
     * Arc - For every value in X_i's domain D_i there is some value in X_j's domain D_j that satisfices the binary constraint on the arc (X_i,X_j). Binary constraints can be checked in this way.
     * Path - Almoast the same as arc consistency but takes into account the path between two nodes. Is X_i still arc consistent with X_j if we take into account some variable X_m between them.
+    * K - For any set of k-1 variables assigned with consistent values a value can be found for the kth element. A CSP is strongly K-consistent if it's also k-1-, k-2-, ... , 1- consistent.
+    * 
     
 
   
 ===
 ## CSP - Backtracking
 
-Simple Backtracking search:
+### Simple Backtracking search
   * Recursive deapth-first search to failure
     * When failing the variable causing it will return failure and new values will be tried
     * stupid but with inference can lead to intelligent backtracking
   
-Intelligent backtracking - heuristic
+===
+
+### Intelligent backtracking - heuristic
   * Strategies for choosing variables 
     * Choose the variable with fewest remaining variables - fail early
     * Choose the variable that is involved in the largest number of constraints - hard case first
@@ -60,16 +64,18 @@ Intelligent backtracking - heuristic
   * eliminates inconsistent values througout the graph
   * Larger local region -> higher inference cost
 
+===
+
 ### Forward checking
 * Assign value to X -> make all nodes connected to X arc consistent -> choose new X repeat
+
+===
 
 ### AC-3 algorithm for arc consistency
   * Makes the whole problem arc consistent or returns false
     * Returns false when a node had run out of possible variable values aka no possible solutions.
   * Systematicly works through all the arcs in a CSP
     * Removes all values from a node that keeps it from being arc consitent
-    
 
-
-
+===
 

@@ -25,16 +25,15 @@
 
 ===  
 
-Word-list
+Word-list:
   * Solution to a CSP - evry variable assigned a value so all constraints are satisfied
   * constraint graph - a graph of all variables and their consistencies
   * Constraints - what type of restriction do the variables have
     * Unary - What can the variable not be - Ex Utah can't be green 
-    * Binary - 
-    * Higher Order - 
-    * Linear - 
-    * Nonlinear - 
-  * Node consistency - 
+    * Binary - Relates two variables - Ex Utah != Spain
+  * Consistency - All constraints are met in a sertain scope
+    * Node - If a variable possible values doesn't make it inconsitent to it's neighbours  
+    * Arc - For every value in X_i's domain D_i there is some value in X_j's domain D_j that satisfices the binary constraint on the arc (X_i,X_j).
   
 ===
 ## CSP - Algorithms

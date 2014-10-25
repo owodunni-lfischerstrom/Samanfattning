@@ -48,4 +48,5 @@ How to convert a sentence to CNF form
 
 1. eliminate a <=> b by replacing with (a=>b)^(b=>a)
 2. eliminate a=>b by replacing with !a v b
-3
+3. CNF requires ! to appear only in litterals so !(!a)=a, !(avb)=(!a)v(!b)
+4. We want to distribute v over ^ whenever its possible (a v (b^c)=(avb)^(avc)

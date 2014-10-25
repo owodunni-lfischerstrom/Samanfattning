@@ -8,6 +8,7 @@ First-Order Logic is sufficient expressice to represent a good deal of our commo
 ## Logic languages
 
 Programming languages such ass c++ are also formal languages.
+
 ===
 
 ## FOL Language and Syntax

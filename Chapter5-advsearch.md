@@ -21,6 +21,14 @@ Perfect for two player games like chess
   * Layerd on top of minmax
   * Searches with deepth first to give alpha and beta some values
   * Any part of the tree that gives worse values gets pruned
+  * Alpha = best value of an already explored path for the maximizer
+  * Beta = best value of an already explored path for the minimizer
+  * When to prune? 
+   * A maximzer node will prune if its current value is higher then beta
+   * A minimizer will prune if its current value is lower than alpha
+  
+
+
 
 
 

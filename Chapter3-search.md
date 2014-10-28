@@ -118,6 +118,7 @@ f(n) = function used by algorith to evaluate new nodes
 
 Proof:
 g(n') = g(n)  + c(n,a,n')
+
 f(n') = g(n') + h(n') = g(n) + c(n,a,n') + h(n') >= g(n) + h(n) = f(n)
 
 The cost will always increase while we move deeper in a consistent search-tree.
